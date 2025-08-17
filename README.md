@@ -12,6 +12,10 @@ Rodolfo Turco (Turcotronics) <rodolfo.turco@turcotronics.com>\
 https://www.turcotronics.it \
 https://www.turcotronics.com
 
+INSTALL:\
+From Arduino Sketch menu / Include Library / Add .ZIP Library...
+
+USAGE:\
 Before write operations that bytes must be already erased (All 0xFF), erase can be done only in sectors or blocks
 
 //______________________________________\
