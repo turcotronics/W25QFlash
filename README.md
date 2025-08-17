@@ -14,7 +14,7 @@ https://www.turcotronics.com
 
 Before write operations that bytes must be already erased (All 0xFF), erase can be done only in sectors or blocks
 
-//______________________________________
+//______________________________________\
 // Costructor
 W25QFlash();
 
