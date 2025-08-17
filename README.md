@@ -5,7 +5,7 @@ It's non blocking or blocking with Timeout
 
 https://github.com/turcotronics/W25QFlash
 
-Version 1.0.0
+Version 1.0.0\
 MIT License
 
 Rodolfo Turco (Turcotronics) <rodolfo.turco@turcotronics.com>\
