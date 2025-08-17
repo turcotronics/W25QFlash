@@ -9,7 +9,7 @@ Version 1.0.0\
 MIT License
 
 Rodolfo Turco (Turcotronics) <rodolfo.turco@turcotronics.com>\
-https://www.turcotronics.it\
+https://www.turcotronics.it \
 https://www.turcotronics.com
 
 Before write operations that bytes must be already erased (All 0xFF), erase can be done only in sectors or blocks
@@ -18,7 +18,7 @@ Before write operations that bytes must be already erased (All 0xFF), erase can 
 // Costructor\
 W25QFlash();
 
-//______________________________________
+//______________________________________\
 // To be called in setup() e.g. myFlash.begin(18); or myFlash.begin(18, &mySPI);\
 void begin(int flash_CS, SPIClass *SPIint=&SPI);
 
@@ -26,7 +26,7 @@ void begin(int flash_CS, SPIClass *SPIint=&SPI);
 // return true if flash is busy\
 bool isBusy();
 
-//______________________________________
+//______________________________________\
 // timeout in milliseconds, return when flash is ready returning true, or after timeout returning false\
 bool waitReadyOk(int32_t timeout);
 
