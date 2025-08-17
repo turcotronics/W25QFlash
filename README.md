@@ -1,30 +1,30 @@
 # W25QFlash
-Simple library for Winbond W25Qxx flash that could work with other brands too
-Tested on Winbond W25Q64JV
-It's non blocking or blocking with Timeout
+Simple library for Winbond W25Qxx flash that could work with other brands too\
+Tested on Winbond W25Q64JV\
+It's non blocking or blocking with Timeout\
 
-https://github.com/turcotronics/W25QFlash
+https://github.com/turcotronics/W25QFlash\
 
-Version 1.0.0
+Version 1.0.0\
 MIT License
 
-Rodolfo Turco (Turcotronics) <rodolfo.turco@turcotronics.com>
-https://www.turcotronics.it
-https://www.turcotronics.com
+Rodolfo Turco (Turcotronics) <rodolfo.turco@turcotronics.com>\
+https://www.turcotronics.it\
+https://www.turcotronics.com\
 
-Before write operations that bytes must be already erased (All 0xFF), erase can be done only in sectors or blocks
+Before write operations that bytes must be already erased (All 0xFF), erase can be done only in sectors or blocks\
 
 //______________________________________\
-// Costructor
-W25QFlash();
+// Costructor\
+W25QFlash();\
 
 //______________________________________
-// To be called in setup() e.g. myFlash.begin(18); or myFlash.begin(18, &mySPI);
-void begin(int flash_CS, SPIClass *SPIint=&SPI);
+// To be called in setup() e.g. myFlash.begin(18); or myFlash.begin(18, &mySPI);\
+void begin(int flash_CS, SPIClass *SPIint=&SPI);\
 
-//______________________________________
-// return true if flash is busy
-bool isBusy();
+//______________________________________\
+// return true if flash is busy\
+bool isBusy();\
 
 //______________________________________
 // timeout in milliseconds, return when flash is ready returning true, or after timeout returning false
